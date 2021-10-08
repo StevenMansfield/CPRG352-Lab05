@@ -7,14 +7,14 @@
     </head>
     <body>
         <h1>Login</h1>
-        <form method="POST" action="home">
+        <form method="POST" action="login">
             <div>
                 <label>Username: </label>
-                <input type="text" name="username" value="">
+                <input type="text" name="username" value="${user.username}">
             </div>
             <div>
                 <label>Password: </label>
-                <input type="text" name="password" value="">
+                <input type="text" name="password" value="${user.password}">
             </div>
             <div>
                 <input type="submit" name="Log In">

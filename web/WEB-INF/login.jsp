@@ -18,7 +18,7 @@
                 <input type="text" name="password" value="${password}">
             </div>
             <div>
-                <input type="submit" name="Log In">
+                <input type="submit" value="Log In">
             </div>
                 <c:if test="${loggedOut}">
                     <p>You have been successfully logged out.</p>
